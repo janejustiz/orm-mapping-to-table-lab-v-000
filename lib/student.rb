@@ -7,7 +7,13 @@ class Student
     @grade = grade
   end
 
-  def self.save
+  def self.create_table
+  end
+
+  def self.drop_table
+  end
+
+  def save
     DB[:conn]
   end
 
